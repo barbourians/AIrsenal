@@ -7,9 +7,9 @@ with open("requirements.txt", "r") as f:
 
 setup(
     name="airsenal",
-    version="0.0.1",
+    version="0.0.2",
     description="An automatic Fantasy Premier League manager.",
-    url="https://github.com/alan-turing-institute/AIrsenal",
+    url="https://github.com/barbourians/AIrsenal",
     author="Nick Barlow and Angus Williams",
     license="MIT",
     include_package_data=True,
@@ -19,7 +19,7 @@ setup(
               "airsenal.scripts"],
     install_requires=REQUIRED_PACKAGES,
     setup_requires=REQUIRED_PACKAGES,
-    dependency_links=["https://github.com/anguswilliams91/bpl/archive/v0.0.1-alpha.zip#egg=bpl"],
+    dependency_links=["https://github.com/anguswilliams91/bpl/archive/v0.0.1-alpha.zip"],
     entry_points={"console_scripts": [
         "setup_airsenal_database=airsenal.scripts.fill_db_init:main",
         "update_airsenal_database=airsenal.scripts.update_results_db:main",
