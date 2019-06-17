@@ -1,8 +1,8 @@
-# other stuff
-.idea/
+# This project
 *FPL_TEAM_ID
 *FPL_LEAGUE_ID
 *FD_API_KEY
+data/FD_API_KEY
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -109,4 +109,3 @@ virtualenv/
 
 # mypy
 .mypy_cache/
-data/FD_API_KEY
