@@ -45,7 +45,7 @@ python fill_match_table.py --input_type api --gw_start <first_gameweek> --gw_end
 
 Once the match data is there, you can fill the player score data by running (also from ```scripts```)
 ```
-python python fill_playerscore_this_season.py --gw_start <first_gameweek> --gw_end <last_gameweek+1>
+python fill_playerscore_this_season.py --gw_start <first_gameweek> --gw_end <last_gameweek+1>
 ```
 
 The transaction table is a bit different, as this reflects the players we are buying and selling in our own team.
