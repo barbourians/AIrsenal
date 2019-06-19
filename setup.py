@@ -29,4 +29,5 @@ setup(
         ],
     },
     package_data={"airsenal": ["data/*", "stan/*"]}
+)
 
